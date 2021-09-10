@@ -1,0 +1,16 @@
+.users {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.usersList {
+  list-style: none;
+  padding: 1rem;
+}
+
+.user {
+  border: 1px solid purple;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
