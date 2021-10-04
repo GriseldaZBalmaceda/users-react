@@ -8,19 +8,18 @@ const Backdrop = props => {
 }
 const Modal = props => {
 return <div className={`${styles.card} ${styles.modal} `}>
-                <header>
-                    <h2>{props.title}</h2>
-                </header>
-                <div className={styles.content}>
-                    <p>{props.message}</p>
-                </div>
-                <footer className={styles.actions}>
-                <Button onClick={props.closeModal}>Okay</Button>
-                </footer>
+            <header>
+                <h2>{props.title}</h2>
+            </header>
+            <div className={styles.content}>
+                <p>{props.message}</p>
             </div>
+            <footer className={styles.actions}>
+            <Button onClick={props.closeModal}>Okay</Button>
+            </footer>
+        </div>
 }
 const ErrorModal = (props) => {
-
     return (
       <React.Fragment>
             {ReactDOM.createPortal(
